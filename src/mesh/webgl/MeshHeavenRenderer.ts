@@ -85,7 +85,7 @@ void main(void)
 			}
 
 			let glData = mesh._glDatas[renderer.CONTEXT_UID];
-			
+
 			if (!glData) {
 				renderer.bindVao(null);
 
